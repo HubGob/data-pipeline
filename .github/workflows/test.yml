@@ -26,3 +26,6 @@ jobs:
 
       - name: Run tests
         run: poetry run pytest tests/ -v
+
+      - name: Run full pipeline
+        run: poetry run python run_pipeline.py
